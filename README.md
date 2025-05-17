@@ -1,8 +1,8 @@
 # Football Transfer Market Mimic : 
 
 ## Overview : 
-  - This project was made since I have a great passion in football and understadning the market dynamics for player trade, player to player comparusons are all key aspects that had to be considered and taken account of.
-  - As a starting point, thisb was the first project I took up.
+  - This project was made since I have a great passion in football and understadning the market dynamics for player trade, player to player comparisons are all key aspects that had to be considered and taken account of.
+  - As a starting point, this was the first project I took up.
 
 ## Features :
 
@@ -10,8 +10,8 @@ This project utilizes the following techniques/frameworks/tech :
 
 - ***KNN (K- Nearest Neighbors)*** -> machine learning algorithm that classifies data points based on the majority class of their k nearest neighbors. In this project, KNN helps identify similar players by finding those with the closest attribute profiles
 - ***FAISS (Facebook AI Similarity Search)*** -> enables efficient similarity search and clustering of dense vectors. Its primary purpose is to perform rapid searching through large datasets to find vectors similar to a given query vector. It significantly outperforms traditional KNN when dealing with high-dimensional data
-- *** tSNE (t-distributed Stochastic Neighbor Embedding) *** -> non-linear dimensionality reduction technique that's well-suited for visualizing high-dimensional data. tSNE focuses on preserving local similarities, which is great for identifying clusters of similar players. It helps visualize player groupings based on their attributes.
-- *** PCA (Principal Coponent Analysis) *** -> linear dimensionality reduction technique that identifies the directions (principal components) along which data varies the most. PCA helps reduce the number of player attributes while retaining the most important information, making similarity searches more efficient.
+- ***tSNE (t-distributed Stochastic Neighbor Embedding)*** -> non-linear dimensionality reduction technique that's well-suited for visualizing high-dimensional data. tSNE focuses on preserving local similarities, which is great for identifying clusters of similar players. It helps visualize player groupings based on their attributes.
+- ***PCA (Principal Component Analysis)*** -> linear dimensionality reduction technique that identifies the directions (principal components) along which data varies the most. PCA helps reduce the number of player attributes while retaining the most important information, making similarity searches more efficient.
 
 ## Process : 
 
@@ -23,7 +23,7 @@ This project utilizes the following techniques/frameworks/tech :
 
 ## Issues and Rectifications
 - If I wanted to scale this, I identified that KNN isn't the most optimnal solution and came around FAISS to be the best alternative.
-- FAISS is a scalable, fast library which allows us to quick search and retrieve (near optimal) values.
+- FAISS is a scalable, fast library which allows us to quick search and retrieve (near-optimal) values.
 - In the code, the parameters k(number of neighbors), m, d and n_bits were varied to identify the optimal solutions -> HyperParameters
 
 ## Further Optimization 
