@@ -2,7 +2,6 @@
 
 ## Overview : 
   - This project was made since I have a great passion in football and understadning the market dynamics for player trade, player to player comparisons are all key aspects that had to be considered and taken account of.
-  - As a starting point, this was the first project I took up.
 
 ## Features :
 
