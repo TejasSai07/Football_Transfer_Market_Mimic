@@ -14,7 +14,7 @@ This project utilizes the following techniques/frameworks/tech :
 
 ## Process : 
 
-- Initially the Dataset was taken from Kaggle and the dataset was analyzed thoroughly to see if it had the requirements of players attributes, etc from which Similarity Search and Market analyis of players could be done.
+- Initially the Dataset was taken from Kaggle and the dataset was analyzed thoroughly to see if it had the requirements of players attributes, etc from which Similarity Search and Market analysis of players could be done.
 - Next mapping of categorical data to numerical values for easier processing was done.
 - Once, the categorical data was mapped to numerical values, data preprocessing was ready to be done.
 - Data preprocessing was done in order to drop data without enough data/repeating rows and Scale values so that all values are on a certain scale.
